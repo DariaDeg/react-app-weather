@@ -1,17 +1,19 @@
+import React from "react";
 import "./App.css";
+import Weather from "./Weather";
 
 export default function App() {
   return (
     <div className="App">
       <div className="Container">
-        <h1>Weather App</h1>
+        <Weather />
         <footer>
           Coded by DariaDeg and{" "}
           <a
             href="https://github.com/DariaDeg/Weather-app-react"
             target="_blank"
           >
-            open-sourced on GitHub
+            open-sourced on 1 GitHub
           </a>
         </footer>
       </div>
