@@ -45,7 +45,7 @@ export default function Weather(props) {
               <input
                 type="search"
                 placeholder="Enter your city"
-                classname="Form-control"
+                className="Form-control"
                 autoFocus="on"
                 onChange={handleCityChange}
               />
